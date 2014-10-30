@@ -29,6 +29,8 @@ virtualenv:
 
 install:
   - git clone --depth=1 https://github.com/OCA/maintainer-quality-tools.git ${HOME}/maintainer-quality-tools
+  - git clone https://github.com/OCA/account-financial-reporting ${HOME}/account-financial-reporting -b ${VERSION}
+  - git clone -b 8.0-add-account-cash-discount-base-ape https://github.com/acsone/banking.git ${HOME}/banking-cash-discount-base
   - export PATH=${HOME}/maintainer-quality-tools/travis:${PATH}
   - pip install xlrd pycoda unidecode
   - travis_install_nightly
