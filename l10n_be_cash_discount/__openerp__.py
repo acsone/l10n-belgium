@@ -21,7 +21,7 @@
 ##############################################################################
 
 {
-    "name": "Account Cash Discount Compute",
+    "name": "Belgium cash discount computation",
     "version": "1.0",
     "author": "ACSONE SA/NV",
     "maintainer": "ACSONE SA/NV",
