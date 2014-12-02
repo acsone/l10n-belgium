@@ -31,9 +31,6 @@
     "depends": [
         "account_cash_discount_base",
     ],
-    "description": """
-    Account Cash Discount Compute
-""",
     "data": [
         'views/account_invoice_view.xml',
         'reports/report_invoice.xml',
