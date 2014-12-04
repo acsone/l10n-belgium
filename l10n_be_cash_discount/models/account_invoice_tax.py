@@ -21,8 +21,6 @@
 ##############################################################################
 
 from openerp import api, models, fields
-from datetime import datetime, timedelta
-from openerp.tools import DEFAULT_SERVER_DATE_FORMAT
 
 BelgiumBaseTaxCodesIn = ['81', '82', '83', '84', '85', '86', '87', '88']
 BelgiumBaseTaxCodesOut = ['00', '01', '02', '03', '44', '45', '46', '46L',
@@ -30,35 +28,10 @@ BelgiumBaseTaxCodesOut = ['00', '01', '02', '03', '44', '45', '46', '46L',
 BelgiumBaseTaxCodes = BelgiumBaseTaxCodesIn + BelgiumBaseTaxCodesOut
 
 
-class account_invoice(models.Model):
-    _inherit = 'account.invoice'
-
-    discount_percent = fields.Float(string='Discount Percent')
-    discount_delay = fields.Integer(string='Discount Delay (days)')
-
-    @api.one
-    @api.onchange('discount_percent')
-    def discount_percent_change(self):
-        discount = self.amount_untaxed * (0.0 + self.discount_percent/100)
-        self.discount_amount = discount
-        return
-
-    @api.one
-    @api.onchange('discount_delay', 'date_invoice')
-    def discount_delay_change(self):
-        if self.date_invoice:
-            date_invoice = self.date_invoice
-            date_invoice = datetime.strptime(date_invoice,
-                                             DEFAULT_SERVER_DATE_FORMAT)
-        else:
-            date_invoice = datetime.now()
-        due_date = date_invoice + timedelta(days=self.discount_delay)
-        self.discount_due_date = due_date.date()
-
-
 class account_invoice_tax(models.Model):
     _inherit = 'account.invoice.tax'
 
+    @api.v8
     def compute(self, invoice):
         tax_grouped = super(account_invoice_tax, self).compute(invoice)
         currency = invoice.currency_id\
