@@ -33,7 +33,6 @@
     ],
     "data": [
         'views/account_invoice_view.xml',
-        'reports/report_invoice.xml',
     ],
     "demo": [],
     "test": [],
