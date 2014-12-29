@@ -31,9 +31,10 @@ BelgiumBaseTaxCodes = BelgiumBaseTaxCodesIn + BelgiumBaseTaxCodesOut
 class account_invoice_tax(models.Model):
     _inherit = 'account.invoice.tax'
 
-    @api.v8
-    def compute(self, invoice):
-        tax_grouped = super(account_invoice_tax, self).compute(invoice)
+    def _compute_discount_tax_value(self, invoice, tax_grouped):
+        """ This method compute taxes values consider discount percent.
+        This method is designed to be inherited"""
+
         currency = invoice.currency_id\
             .with_context(date=invoice.date_invoice or
                           fields.Date.context_today(invoice))
@@ -51,4 +52,10 @@ class account_invoice_tax(models.Model):
                                                       multiplier)
                     t['tax_amount'] = currency.round(t['tax_amount'] *
                                                      multiplier)
+        return tax_grouped
+
+    @api.v8
+    def compute(self, invoice):
+        tax_grouped = super(account_invoice_tax, self).compute(invoice)
+        tax_grouped = self._compute_discount_tax_value(invoice, tax_grouped)
         return tax_grouped
