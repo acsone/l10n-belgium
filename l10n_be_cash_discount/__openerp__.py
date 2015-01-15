@@ -31,9 +31,7 @@
     "depends": [
         "account_cash_discount_base",
     ],
-    "data": [
-        'views/account_invoice_view.xml',
-    ],
+    "data": [],
     "demo": [],
     "test": [],
     "licence": "AGPL-3",

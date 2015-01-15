@@ -39,6 +39,8 @@ class account_invoice_tax(models.Model):
             .with_context(date=invoice.date_invoice or
                           fields.Date.context_today(invoice))
         pct = invoice.discount_percent
+        if not pct and invoice.discount_amount:
+            pct = (1 - (invoice.discount_amount / invoice.amount_total)) * 100
         if pct:
             multiplier = 1-pct/100
             atc_obj = self.env['account.tax.code']
