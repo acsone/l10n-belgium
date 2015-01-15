@@ -21,4 +21,4 @@
 ##############################################################################
 #
 
-from . import test_account_cash_discount_compute
+from . import test_l10n_be_cash_discount
