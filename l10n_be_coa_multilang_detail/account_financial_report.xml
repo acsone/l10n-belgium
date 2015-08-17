@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="0">
+
+        <!-- account.financial.report -->
+        <record id="l10n_be_coa_multilang.account_financial_report_BE_2_FULL" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_219000" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_211000" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_211100" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_211200" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_211300" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_211310" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_211320" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_211330" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_211340" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_211350" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_211360" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_211400" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_211410" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_211411" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_211412" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_211420" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_211421" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_211422" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_211430" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_211431" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_211432" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_212000" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_212100" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_212110" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_212120" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_212200" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_212210" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_212211" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_212212" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_212213" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_212214" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_212215" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_212216" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_212220" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_212300" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_212310" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_212320" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_212400" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_212410" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_212420" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_212500" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_212600" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_229000" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_221000" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_221100" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_221110" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_221120" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_221200" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_221300" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_221400" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_221410" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_221420" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_221421" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_221422" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_221430" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_221440" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_221500" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_221600" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_221700" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_222000" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_222100" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_222110" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_222120" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_222130" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_222140" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_222200" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_223000" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_223100" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_223110" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_223111" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_223112" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_223113" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_223114" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_223115" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_223120" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_223121" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_223122" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_223130" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_223140" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_223200" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_223210" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_223220" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_223221" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_223222" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_223230" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_223231" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_223232" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_223240" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_223250" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_223251" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_223252" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_223260" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_223300" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_BE_3_FULL" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_35000" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_34000" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_33000" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_32000" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_31000" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_30100" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_30110" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_30120" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_30130" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_30140" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_30200" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_30210" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_30211" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_30212" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_30220" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_30230" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_30240" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_30250" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_30260" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_30270" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_30280" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_31100" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_31110" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_31120" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_31130" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_31200" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_31210" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_31220" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_31230" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_32100" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_32110" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_32120" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_32130" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_32140" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_32150" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_32200" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_32210" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_32220" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_32230" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_32240" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_32250" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_32260" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_33100" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_33200" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_33300" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_33310" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_33320" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_34100" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+        <record id="l10n_be_coa_multilang.account_financial_report_34200" model="account.financial.report">
+            <field name="display_detail">detail_flat</field>
+        </record>
+
+    </data>
+</openerp>
