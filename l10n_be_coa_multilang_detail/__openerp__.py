@@ -35,7 +35,7 @@
     # Categories can be used to filter modules in modules listing
     # Check http://goo.gl/0TfwzD for the full list
     'category': 'Localization/Account Charts',
-    'version': '0.1',
+    'version': '8.0.1.0.0',
     'license': 'AGPL-3',
 
     # any module necessary for this one to work correctly
