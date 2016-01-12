@@ -185,7 +185,7 @@ class l10n_be_vat_declaration(orm.TransientModel):
             tax_info['72'] = tax_info['VI']
         cases_list = []
         for item in tax_info:
-            if tax_info['91'][1] and ending_month != 12:
+            if tax_info['91'][1] and ending_month != '12':
                 #the tax code 91 can only be send for the declaration of December
                 raise orm.except_orm(_('Incorrect Data!'),
                     _('Tax Case 91 is only allowed for the declaration of December.'))
