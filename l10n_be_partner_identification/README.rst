@@ -6,9 +6,8 @@
 Belgium Partner Identification Numbers
 ======================================
 
-This addons extends *Partner Identification Numbers* to provide:
-* a Belgium national registration number category. The category validate the number according the the rules
-  specific to the `Belgium national registration number <https://fr.wikipedia.org/wiki/Num%C3%A9ro_de_registre_national>`_.
+This addons extends *Partner Identification Numbers* to provide a number category for the 'Belgium national registration number'. 
+The category validate the number according the rules specific to the `Belgium national registration number <https://fr.wikipedia.org/wiki/Num%C3%A9ro_de_registre_national>`_.
 
 Installation
 ============
