@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 #  ©  2016 ACSONE SA/NV (<http://acsone.eu>)
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
-from psycopg2._psycopg import IntegrityError
 import openerp.tests.common as common
 from openerp.exceptions import ValidationError
 
@@ -13,7 +12,6 @@ class TestL10nBePartnerIdentification(common.TransactionCase):
             'l10n_be_partner_identification.'
             'l10n_be_national_registry_number_category')
         partner_1 = self.env.ref('base.res_partner_1')
-        exception = None
         # born before 2000
         partner_1.write({'id_numbers':  [(0, 0,  {
             'name': '85.01.01-002.14',
