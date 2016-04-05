@@ -247,7 +247,7 @@ class partner_vat_list(orm.TransientModel):
             'city': city,
             'country': country,
             'email': email,
-            'phone': phone,
+            'phone': phone.replace('.', '').replace('/', '').replace('(', '').replace(')', '').replace(' ', ''),
             'SenderId': SenderId,
             'period': year,
             'comments': data['comments'] or ''
