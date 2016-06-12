@@ -39,6 +39,7 @@
             <field name="company_id" ref="base.main_company"/>
             <field name="journal_id" ref="account.sales_journal"/>
             <field name="period_id" ref="period_1_2012"/>
+            <field name="date">2012-01-15</field>
             <field name="state">draft</field>
             <field name="type">out_invoice</field>
             <field name="account_id" ref="account.a_recv"/>
