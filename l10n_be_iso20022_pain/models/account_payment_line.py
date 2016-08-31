@@ -11,13 +11,8 @@ class AccountPaymentLine(models.Model):
 
     _inherit = 'account.payment.line'
 
-    def _get_communication_type(self):
-        """Add BBA Structured Communication Type"""
-        return[('normal', 'Free Communication'),
-               ('bba', 'BBA Structured Communication')]
-
     communication_type = fields.Selection(
-        selection=_get_communication_type)
+        selection_add=[('bba', 'BBA Structured Communication')])
 
     def check_bbacomm(self, val):
         supported_chars = '0-9'
