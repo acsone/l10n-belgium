@@ -32,7 +32,7 @@ class TestL10nBePartnerIdentification(common.TransactionCase):
 
     def test_validate_id_card(self):
         partner_id_category = self.env.ref(
-            'l10n_be_partner_identification_id.'
+            'l10n_be_partner_identification.'
             'l10n_be_id_card_category')
         partner_1 = self.env.ref('base.res_partner_1')
         # born before 2000
