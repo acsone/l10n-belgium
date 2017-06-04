@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record id="group_undesired_menus" model="res.groups">
+            <field name="name">Belgium - Multilingual Chart of Accounts - Undesired menus</field>
+        </record>
+        <record id="l10n_be.menu_finance_belgian_statement" model="ir.ui.menu">
+            <field name="groups_id" eval="[(6,0,[ref('l10n_be_coa_multilang_hide_menus.group_undesired_menus')])]" />
+        </record>
+    </data>
+</openerp>
