@@ -1,9 +1,9 @@
-# -*- coding: utf-8 -*-
-#
+# -*- encoding: utf-8 -*-
 ##############################################################################
 #
-#    Authors: Stéphane Bidoul
-#    Copyright (c) 2014 Acsone SA/NV (http://www.acsone.eu)
+#    OpenERP, Open Source Management Solution
+#
+#    Copyright (c) 2014 Noviat nv/sa (www.noviat.com). All rights reserved.
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -12,27 +12,19 @@
 #
 #    This program is distributed in the hope that it will be useful,
 #    but WITHOUT ANY WARRANTY; without even the implied warranty of
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 #    GNU Affero General Public License for more details.
 #
 #    You should have received a copy of the GNU Affero General Public License
-#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#    along with this program. If not, see <http://www.gnu.org/licenses/>.
 #
 ##############################################################################
 
-{
-    'name': 'ISO 20022 PAIN Support for Belgium',
-    'version': '8.0.1.0.0',
-    'author': 'ACSONE SA/NV,Odoo Community Association (OCA)',
-    'category': 'Generic Modules/Accounting',
-    'website': 'http://www.acsone.eu',
-    'depends': [
-        'account_banking_pain_base',
-    ],
-    'data': [
-    ],
-    'demo': [
-    ],
-    'license': 'AGPL-3',
-    'installable': True,
-}
+from . import wizard_multi_charts_accounts
+from . import res_config
+from . import account
+from . import account_fix
+from . import account_tax_fix
+from . import account_financial_report
+from . import partner
+from . import wizard
