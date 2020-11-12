@@ -27,7 +27,6 @@ class AccountPaymentLine(models.Model):
                 return True
         return False
 
-    @api.multi
     @api.constrains("communication", "communication_type")
     def _check_communication(self):
         for rec in self:
@@ -37,8 +36,6 @@ class AccountPaymentLine(models.Model):
                 raise ValidationError(_("Invalid BBA Structured Communication !"))
 
     def invoice_reference_type2communication_type(self):
-        res = super(
-            AccountPaymentLine, self
-        ).invoice_reference_type2communication_type()
+        res = super().invoice_reference_type2communication_type()
         res["bba"] = "bba"
         return res
