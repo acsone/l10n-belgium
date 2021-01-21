@@ -109,13 +109,15 @@ class AccountBankStatementImport(models.TransientModel):
                 parsed_date = date_parser.parse(statement_date)
                 year = "%s/" % parsed_date.year
             vals.update(
-                {"name": "{}{}".format(year, statement.paper_seq_number),}
+                {
+                    "name": "{}{}".format(year, statement.paper_seq_number),
+                }
             )
 
         globalisation_dict = {
-                st.ref_move: st
-                for st in statement.movements
-                if st.type == MovementRecordType.GLOBALISATION
+            st.ref_move: st
+            for st in statement.movements
+            if st.type == MovementRecordType.GLOBALISATION
         }
         information_dict = {}
         # build a dict of information by transaction_ref. The transaction_ref
@@ -130,7 +132,9 @@ class AccountBankStatementImport(models.TransientModel):
                 statement.movements,
             )
         ):
-            info = self.get_st_line_vals(line, globalisation_dict, information_dict)
+            info = self.get_st_line_vals(
+                line, globalisation_dict, information_dict
+            )
             info["sequence"] = sequence
             info["unique_import_id"] = (
                 statement.coda_seq_number
@@ -145,15 +149,18 @@ class AccountBankStatementImport(models.TransientModel):
         return vals
 
     def get_st_line_note(self, line, information_dict):
-        """This method returns a formatted note from line information
-        """
+        """This method returns a formatted note from line information"""
         note = []
         if line.counterparty_name:
             note.append(_("Counter Party") + ": " + line.counterparty_name)
         if line.counterparty_number:
-            note.append(_("Counter Party Account") + ": " + line.counterparty_number)
+            note.append(
+                _("Counter Party Account") + ": " + line.counterparty_number
+            )
         if line.counterparty_address:
-            note.append(_("Counter Party Address") + ": " + line.counterparty_address)
+            note.append(
+                _("Counter Party Address") + ": " + line.counterparty_address
+            )
         infos = information_dict.get(line.transaction_ref, [])
         if line.communication or infos:
             communications = []
@@ -214,7 +221,9 @@ class AccountBankStatementImport(models.TransientModel):
 
     @api.model
     def _complete_statement(self, stmts_vals, journal_id, account_number):
-        stmts_vals = super()._complete_statement(stmts_vals, journal_id, account_number)
+        stmts_vals = super()._complete_statement(
+            stmts_vals, journal_id, account_number
+        )
         journal = self.env["account.journal"].browse(journal_id)
         stmts_vals["name"] = "{}/{}".format(journal.code, stmts_vals["name"])
         return stmts_vals
