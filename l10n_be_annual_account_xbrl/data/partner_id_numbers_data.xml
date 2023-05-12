@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data noupdate="1">
+        <record id="id_category_entity_number" model="res.partner.id_category">
+            <field name="code">nmt:m1</field>
+            <field name="name">Entity Number</field>
+        </record>
+        <record id="id_category_member_number" model="res.partner.id_category">
+            <field name="code">member_number</field>
+            <field name="name">Member Number</field>
+        </record>
+    </data>
+</odoo>
