@@ -18,4 +18,9 @@
         "data/mis_report_vat.xml",
     ],
     "installable": True,
+    "external_dependencies": {
+        "python": [
+            "click",
+        ],
+    },
 }

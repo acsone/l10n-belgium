@@ -1,0 +1,1557 @@
+{
+  "taxonomyPackage": {
+    "packageId": 823010543,
+    "packageName": {
+      "de": "Modelle 2021 (22.19.3)",
+      "en": "Models 2021 (22.19.3)",
+      "fr": "Modèles 2021 (22.19.3)",
+      "nl": "Modellen 2021 (22.19.3)"
+    },
+    "packageVersion": "22.19.3",
+    "packageFilename": "nbb-cbso-22.19.3.zip",
+    "creationDate": "2023-05-10T13:27:54",
+    "entryPoints": [
+      {
+        "entryPointNames": {
+          "de": "Vollständiges Modell Gesellschaft mit Kapital",
+          "en": "Full model company with capital",
+          "fr": "Modèle complet société à capital",
+          "nl": "Volledig model kapitaalvennootschap"
+        },
+        "entryPointDescriptions": {
+          "de": "Voll-K",
+          "en": "F-cap",
+          "fr": "C-cap",
+          "nl": "VOL-kap"
+        },
+        "langs": "",
+        "modelCode": "m02-f",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m02/m02-f.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "SPLIT-Vollständiges Modell Gesellschaft mit Kapital (Jahresabschluss)",
+          "en": "SPLIT-Full model company with capital (annual accounts)",
+          "fr": "SPLIT-Modèle complet société à capital (comptes annuels)",
+          "nl": "SPLIT-Volledig model kapitaalvennootschap (jaarrekening)"
+        },
+        "entryPointDescriptions": {
+          "de": "Voll-K",
+          "en": "F-cap",
+          "fr": "C-cap",
+          "nl": "VOL-kap"
+        },
+        "langs": "",
+        "modelCode": "m02-a",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m02/m02-a.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "SPLIT-Vollständiges Modell Gesellschaft mit Kapital (andere Dokumente)",
+          "en": "SPLIT-Full model company with capital (other documents)",
+          "fr": "SPLIT-Modèle complet société à capital (autres documents)",
+          "nl": "SPLIT-Volledig model kapitaalvennootschap (andere documenten)"
+        },
+        "entryPointDescriptions": {
+          "de": "Voll-K",
+          "en": "F-cap",
+          "fr": "C-cap",
+          "nl": "VOL-kap"
+        },
+        "langs": "",
+        "modelCode": "m02-o",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m02/m02-o.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "Vollständiges Modell Gesellschaft Ohne Kapital",
+          "en": "Full model company without capital",
+          "fr": "Modèle complet société sans capital",
+          "nl": "Volledig model kapitaalloze vennootschap"
+        },
+        "entryPointDescriptions": {
+          "de": "Voll-E",
+          "en": "F-con",
+          "fr": "C-app",
+          "nl": "VOL-inb"
+        },
+        "langs": "",
+        "modelCode": "m82-f",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m82/m82-f.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "SPLIT-Vollständiges Modell Gesellschaft Ohne Kapital (Jahresabschluss)",
+          "en": "SPLIT-Full model company without capital (annual accounts)",
+          "fr": "SPLIT-Modèle complet société sans capital (comptes annuels)",
+          "nl": "SPLIT-Volledig model kapitaalloze vennootschap (jaarrekening)"
+        },
+        "entryPointDescriptions": {
+          "de": "Voll-E",
+          "en": "F-con",
+          "fr": "C-app",
+          "nl": "VOL-inb"
+        },
+        "langs": "",
+        "modelCode": "m82-a",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m82/m82-a.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "SPLIT-Vollständiges Modell Gesellschaft Ohne Kapital (andere Dokumente)",
+          "en": "SPLIT-Full model company without capital (other documents)",
+          "fr": "SPLIT-Modèle complet société sans capital (autres documents)",
+          "nl": "SPLIT-Volledig model kapitaalloze vennootschap (andere documenten)"
+        },
+        "entryPointDescriptions": {
+          "de": "Voll-E",
+          "en": "F-con",
+          "fr": "C-app",
+          "nl": "VOL-inb"
+        },
+        "langs": "",
+        "modelCode": "m82-o",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m82/m82-o.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "Verkürztes Modell Kapital Gesellschaft",
+          "en": "Abbreviated model company with capital",
+          "fr": "Modèle abrégé société à capital",
+          "nl": "Verkort model kapitaalvennootschap"
+        },
+        "entryPointDescriptions": {
+          "de": "Verk-K",
+          "en": "ABR-cap",
+          "fr": "A-cap",
+          "nl": "VKT-kap"
+        },
+        "langs": "",
+        "modelCode": "m01-f",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m01/m01-f.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "SPLIT-Verkürztes Modell Kapital Gesellschaft (Jahresabschluss)",
+          "en": "SPLIT-Abbreviated model company with capital (annual accounts)",
+          "fr": "SPLIT-Modèle abrégé société à capital (comptes annuels)",
+          "nl": "SPLIT-Verkort model kapitaalvennootschap (jaarrekening)"
+        },
+        "entryPointDescriptions": {
+          "de": "Verk-K",
+          "en": "ABR-cap",
+          "fr": "A-cap",
+          "nl": "VKT-kap"
+        },
+        "langs": "",
+        "modelCode": "m01-a",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m01/m01-a.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "SPLIT-Verkürztes Modell Kapital Gesellschaft (andere Dokumente)",
+          "en": "SPLIT-Abbreviated model company with capital (other documents)",
+          "fr": "SPLIT-Modèle abrégé société à capital (autres documents)",
+          "nl": "SPLIT-Verkort model kapitaalvennootschap (andere documenten)"
+        },
+        "entryPointDescriptions": {
+          "de": "Verk-K",
+          "en": "ABR-cap",
+          "fr": "A-cap",
+          "nl": "VKT-kap"
+        },
+        "langs": "",
+        "modelCode": "m01-o",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m01/m01-o.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "Verkürztes Modell Gesellschaft Ohne Kapital",
+          "en": "Abbreviated model company without capital",
+          "fr": "Modèle abrégé société sans capital",
+          "nl": "Verkort model kapitaalloze vennootschap"
+        },
+        "entryPointDescriptions": {
+          "de": "Verk-E",
+          "en": "ABR-con",
+          "fr": "A-app",
+          "nl": "VKT-inb"
+        },
+        "langs": "",
+        "modelCode": "m81-f",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m81/m81-f.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "SPLIT-Verkürztes Modell Gesellschaft Ohne Kapital (Jahresabschluss)",
+          "en": "SPLIT-Abbreviated model company without capital (annual accounts)",
+          "fr": "SPLIT-Modèle abrégé société sans capital (comptes annuels)",
+          "nl": "SPLIT-Verkort model kapitaalloze vennootschap (jaarrekening)"
+        },
+        "entryPointDescriptions": {
+          "de": "Verk-E",
+          "en": "ABR-con",
+          "fr": "A-app",
+          "nl": "VKT-inb"
+        },
+        "langs": "",
+        "modelCode": "m81-a",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m81/m81-a.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "SPLIT-Verkürztes Modell Gesellschaft Ohne Kapital (andere Dokumente)",
+          "en": "SPLIT-Abbreviated model company without capital (other documents)",
+          "fr": "SPLIT-Modèle abrégé société sans capital (autres documents)",
+          "nl": "SPLIT-Verkort model kapitaalloze vennootschap (andere documenten)"
+        },
+        "entryPointDescriptions": {
+          "de": "Verk-E",
+          "en": "ABR-con",
+          "fr": "A-app",
+          "nl": "VKT-inb"
+        },
+        "langs": "",
+        "modelCode": "m81-o",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m81/m81-o.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "Mikro Modell Gesellschaft mit Kapital",
+          "en": "Micro model company with capital",
+          "fr": "Modèle micro société à capital",
+          "nl": "Micro model kapitaalvennootschap"
+        },
+        "entryPointDescriptions": {
+          "de": "Mikro-K",
+          "en": "MIC-cap",
+          "fr": "M-cap",
+          "nl": "MIC-kap"
+        },
+        "langs": "",
+        "modelCode": "m07-f",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m07/m07-f.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "SPLIT-Mikro Modell Gesellschaft mit Kapital  (Jahresabschluss)",
+          "en": "SPLIT-Micro model company with capital (annual accounts)",
+          "fr": "SPLIT-Modèle micro société à capital (comptes annuels)",
+          "nl": "SPLIT-Micro model kapitaalvennootschap (jaarrekening)"
+        },
+        "entryPointDescriptions": {
+          "de": "Mikro-K",
+          "en": "MIC-cap",
+          "fr": "M-cap",
+          "nl": "MIC-kap"
+        },
+        "langs": "",
+        "modelCode": "m07-a",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m07/m07-a.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "SPLIT-Mikro Modell Gesellschaft mit Kapital (andere Dokumente)",
+          "en": "SPLIT-Micro model company with capital (other documents)",
+          "fr": "SPLIT-Modèle micro société à capital (autres documents)",
+          "nl": "SPLIT-Micro model kapitaalvennootschap (andere documenten)"
+        },
+        "entryPointDescriptions": {
+          "de": "Mikro-K",
+          "en": "MIC-cap",
+          "fr": "M-cap",
+          "nl": "MIC-kap"
+        },
+        "langs": "",
+        "modelCode": "m07-o",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m07/m07-o.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "Mikro Modell Gesellschaft Ohne Kapital",
+          "en": "Micro model company without capital",
+          "fr": "Modèle micro société sans capital",
+          "nl": "Micro model kapitaalloze vennootschap"
+        },
+        "entryPointDescriptions": {
+          "de": "Mikro-E",
+          "en": "MIC-con",
+          "fr": "M-app",
+          "nl": "MIC-inb"
+        },
+        "langs": "",
+        "modelCode": "m87-f",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m87/m87-f.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "SPLIT-Mikro Modell Gesellschaft Ohne Kapital (Jahresabschluss)",
+          "en": "SPLIT-Micro model company without capital (annual accounts)",
+          "fr": "SPLIT-Modèle micro société sans capital (comptes annuels)",
+          "nl": "SPLIT-Micro model kapitaalloze vennootschap (jaarrekening)"
+        },
+        "entryPointDescriptions": {
+          "de": "Mikro-E",
+          "en": "MIC-con",
+          "fr": "M-app",
+          "nl": "MIC-inb"
+        },
+        "langs": "",
+        "modelCode": "m87-a",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m87/m87-a.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "SPLIT-Mikro Modell Gesellschaft Ohne Kapital (andere Dokumente)",
+          "en": "SPLIT-Micro model company without capital (other documents)",
+          "fr": "SPLIT-Modèle micro société sans capital (autres documents)",
+          "nl": "SPLIT-Micro model kapitaalloze vennootschap (andere documenten)"
+        },
+        "entryPointDescriptions": {
+          "de": "Mikro-E",
+          "en": "MIC-con",
+          "fr": "M-app",
+          "nl": "MIC-inb"
+        },
+        "langs": "",
+        "modelCode": "m87-o",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m87/m87-o.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "Vollständiges Modell Vereinigung",
+          "en": "Full schema non-profit institution",
+          "fr": "Modèle complet association",
+          "nl": "Volledig model vereniging"
+        },
+        "entryPointDescriptions": {
+          "de": "Voll.-VoG",
+          "en": "F-NPI",
+          "fr": "C-ASBL",
+          "nl": "VOL-VZW"
+        },
+        "langs": "",
+        "modelCode": "m05-f",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m05/m05-f.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "Verkürztes Modell Vereinigung",
+          "en": "Abbreviated schema non-profit institution",
+          "fr": "Modèle abrégé association",
+          "nl": "Verkort model vereniging"
+        },
+        "entryPointDescriptions": {
+          "de": "Verk.-VoG",
+          "en": "ABR-NPI",
+          "fr": "A-ASBL",
+          "nl": "VKT-VZW"
+        },
+        "langs": "",
+        "modelCode": "m04-f",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m04/m04-f.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "Mikro Modell Vereinigung",
+          "en": "Micro schema non-profit institution",
+          "fr": "Modèle micro association",
+          "nl": "Micro model vereniging"
+        },
+        "entryPointDescriptions": {
+          "de": "Mikro-VoG",
+          "en": "MIC-NPI",
+          "fr": "M-ASBL",
+          "nl": "MIC-VZW"
+        },
+        "langs": "",
+        "modelCode": "m08-f",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m08/m08-f.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "PDF-Vollständiges Modell Gesellschaft mit Kapital",
+          "en": "PDF-Full model company with capital",
+          "fr": "PDF-Modèle complet société à capital",
+          "nl": "PDF-Volledig model kapitaalvennootschap"
+        },
+        "entryPointDescriptions": {
+          "de": "Voll-K",
+          "en": "F-cap",
+          "fr": "C-cap",
+          "nl": "VOL-kap"
+        },
+        "langs": "",
+        "modelCode": "m02-f-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m02/m02-f-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "PDF-SPLIT-Vollständiges Modell Gesellschaft mit Kapital (Jahresabschluss)",
+          "en": "PDF-SPLIT-Full model company with capital (annual accounts)",
+          "fr": "PDF-SPLIT-Modèle complet société à capital (comptes annuels)",
+          "nl": "PDF-SPLIT-Volledig model kapitaalvennootschap (jaarrekening)"
+        },
+        "entryPointDescriptions": {
+          "de": "Voll-K",
+          "en": "F-cap",
+          "fr": "C-cap",
+          "nl": "VOL-kap"
+        },
+        "langs": "",
+        "modelCode": "m02-a-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m02/m02-a-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "PDF-SPLIT-Vollständiges Modell Gesellschaft mit Kapital (andere Dokumente)",
+          "en": "PDF-SPLIT-Full model company with capital (other documents)",
+          "fr": "PDF-SPLIT-Modèle complet société à capital (autres documents)",
+          "nl": "PDF-SPLIT-Volledig model kapitaalvennootschap (andere documenten)"
+        },
+        "entryPointDescriptions": {
+          "de": "Voll-K",
+          "en": "F-cap",
+          "fr": "C-cap",
+          "nl": "VOL-kap"
+        },
+        "langs": "",
+        "modelCode": "m02-o-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m02/m02-o-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "PDF-Vollständiges Modell Gesellschaft Ohne Kapital",
+          "en": "PDF-Full model company without capital",
+          "fr": "PDF-Modèle complet société sans capital",
+          "nl": "PDF-Volledig model kapitaalloze vennootschap"
+        },
+        "entryPointDescriptions": {
+          "de": "Voll-E",
+          "en": "F-con",
+          "fr": "C-app",
+          "nl": "VOL-inb"
+        },
+        "langs": "",
+        "modelCode": "m82-f-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m82/m82-f-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "PDF-SPLIT-Vollständiges Modell Gesellschaft Ohne Kapital (Jahresabschluss)",
+          "en": "PDF-SPLIT-Full model company without capital (annual accounts)",
+          "fr": "PDF-SPLIT-Modèle complet société sans capital (comptes annuels)",
+          "nl": "PDF-SPLIT-Volledig model kapitaalloze vennootschap (jaarrekening)"
+        },
+        "entryPointDescriptions": {
+          "de": "Voll-E",
+          "en": "F-con",
+          "fr": "C-app",
+          "nl": "VOL-inb"
+        },
+        "langs": "",
+        "modelCode": "m82-a-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m82/m82-a-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "PDF-SPLIT-Vollständiges Modell Gesellschaft Ohne Kapital (andere Dokumente)",
+          "en": "PDF-SPLIT-Full model company without capital (other documents)",
+          "fr": "PDF-SPLIT-Modèle complet société sans capital (autres documents)",
+          "nl": "PDF-SPLIT-Volledig model kapitaalloze vennootschap (andere documenten)"
+        },
+        "entryPointDescriptions": {
+          "de": "Voll-E",
+          "en": "F-con",
+          "fr": "C-app",
+          "nl": "VOL-inb"
+        },
+        "langs": "",
+        "modelCode": "m82-o-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m82/m82-o-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "PDF-Verkürztes Modell Gesellschaft mit Kapital",
+          "en": "PDF-Abbreviated model company with capital",
+          "fr": "PDF-Modèle abrégé société à capital",
+          "nl": "PDF-Verkort model kapitaalvennootschap"
+        },
+        "entryPointDescriptions": {
+          "de": "Verk-K",
+          "en": "ABR-cap",
+          "fr": "A-cap",
+          "nl": "VKT-kap"
+        },
+        "langs": "",
+        "modelCode": "m01-f-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m01/m01-f-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "PDF-SPLIT-Verkürztes Modell Gesellschaft mit Kapital (Jahresabschluss)",
+          "en": "PDF-SPLIT-Abbreviated model company with capital (annual accounts)",
+          "fr": "PDF-SPLIT-Modèle abrégé société à capital (comptes annuels)",
+          "nl": "PDF-SPLIT-Verkort model kapitaalvennootschap (jaarrekening)"
+        },
+        "entryPointDescriptions": {
+          "de": "Verk-K",
+          "en": "ABR-cap",
+          "fr": "A-cap",
+          "nl": "VKT-kap"
+        },
+        "langs": "",
+        "modelCode": "m01-a-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m01/m01-a-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "PDF-SPLIT-Verkürztes Modell Gesellschaft mit Kapital (andere Dokumente)",
+          "en": "PDF-SPLIT-Abbreviated model company with capital (other documents)",
+          "fr": "PDF-SPLIT-Modèle abrégé société à capital (autres documents)",
+          "nl": "PDF-SPLIT-Verkort model kapitaalvennootschap (andere documenten)"
+        },
+        "entryPointDescriptions": {
+          "de": "Verk-K",
+          "en": "ABR-cap",
+          "fr": "A-cap",
+          "nl": "VKT-kap"
+        },
+        "langs": "",
+        "modelCode": "m01-o-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m01/m01-o-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "PDF-Verkürztes Modell Gesellschaft Ohne Kapital",
+          "en": "PDF-Abbreviated model company without capital",
+          "fr": "PDF-Modèle abrégé société sans capital",
+          "nl": "PDF-Verkort model kapitaalloze vennootschap"
+        },
+        "entryPointDescriptions": {
+          "de": "Verk-E",
+          "en": "ABR-con",
+          "fr": "A-app",
+          "nl": "VKT-inb"
+        },
+        "langs": "",
+        "modelCode": "m81-f-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m81/m81-f-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "PDF-SPLIT-Verkürztes Modell Gesellschaft Ohne Kapital (Jahresabschluss)",
+          "en": "PDF-SPLIT-Abbreviated model company without capital (annual accounts)",
+          "fr": "PDF-SPLIT-Modèle abrégé société sans capital (comptes annuels)",
+          "nl": "PDF-SPLIT-Verkort model kapitaalloze vennootschap (jaarrekening)"
+        },
+        "entryPointDescriptions": {
+          "de": "Verk-E",
+          "en": "ABR-con",
+          "fr": "A-app",
+          "nl": "VKT-inb"
+        },
+        "langs": "",
+        "modelCode": "m81-a-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m81/m81-a-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "PDF-SPLIT-Verkürztes Modell Gesellschaft Ohne Kapital (andere Dokumente)",
+          "en": "PDF-SPLIT-Abbreviated model company without capital (other documents)",
+          "fr": "PDF-SPLIT-Modèle abrégé société sans capital (autres documents)",
+          "nl": "PDF-SPLIT-Verkort model kapitaalloze vennootschap (andere documenten)"
+        },
+        "entryPointDescriptions": {
+          "de": "Verk-E",
+          "en": "ABR-con",
+          "fr": "A-app",
+          "nl": "VKT-inb"
+        },
+        "langs": "",
+        "modelCode": "m81-o-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m81/m81-o-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "PDF-Mikro Modell Gesellschaft mit Kapital",
+          "en": "PDF-Micro model company with capital",
+          "fr": "PDF-Modèle micro société à capital",
+          "nl": "PDF-Micro model kapitaalvennootschap"
+        },
+        "entryPointDescriptions": {
+          "de": "Mikro-K",
+          "en": "MIC-cap",
+          "fr": "M-cap",
+          "nl": "MIC-kap"
+        },
+        "langs": "",
+        "modelCode": "m07-f-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m07/m07-f-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "PDF-SPLIT-Mikro Modell Gesellschaft mit Kapital (Jahresabschluss)",
+          "en": "PDF-SPLIT-Micro model company with capital (annual accounts)",
+          "fr": "PDF-SPLIT-Modèle micro société à capital (comptes annuels)",
+          "nl": "PDF-SPLIT-Micro model kapitaalvennootschap (jaarrekening)"
+        },
+        "entryPointDescriptions": {
+          "de": "Mikro-K",
+          "en": "MIC-cap",
+          "fr": "M-cap",
+          "nl": "MIC-kap"
+        },
+        "langs": "",
+        "modelCode": "m07-a-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m07/m07-a-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "PDF-SPLIT-Mikro Modell Gesellschaft mit Kapital (andere Dokumente)",
+          "en": "PDF-SPLIT-Micro model company with capital (other documents)",
+          "fr": "PDF-SPLIT-Modèle micro société à capital (autres documents)",
+          "nl": "PDF-SPLIT-Micro model kapitaalvennootschap (andere documenten)"
+        },
+        "entryPointDescriptions": {
+          "de": "Mikro-K",
+          "en": "MIC-cap",
+          "fr": "M-cap",
+          "nl": "MIC-kap"
+        },
+        "langs": "",
+        "modelCode": "m07-o-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m07/m07-o-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "PDF-Mikro Modell Gesellschaft Ohne Kapital",
+          "en": "PDF-Micro model company without capital",
+          "fr": "PDF-Modèle micro société sans capital",
+          "nl": "PDF-Micro model kapitaalloze vennootschap"
+        },
+        "entryPointDescriptions": {
+          "de": "Mikro-E",
+          "en": "MIC-con",
+          "fr": "M-app",
+          "nl": "MIC-inb"
+        },
+        "langs": "",
+        "modelCode": "m87-f-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m87/m87-f-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "PDF-SPLIT-Mikro Modell Gesellschaft Ohne Kapital (Jahresabschluss)",
+          "en": "PDF-SPLIT-Micro model company without capital (annual accounts)",
+          "fr": "PDF-SPLIT-Modèle micro société sans capital (comptes annuels)",
+          "nl": "PDF-SPLIT-Micro model kapitaalloze vennootschap (jaarrekening)"
+        },
+        "entryPointDescriptions": {
+          "de": "Mikro-E",
+          "en": "MIC-con",
+          "fr": "M-app",
+          "nl": "MIC-inb"
+        },
+        "langs": "",
+        "modelCode": "m87-a-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m87/m87-a-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "PDF-SPLIT-Mikro Modell Gesellschaft Ohne Kapital (andere Dokumente)",
+          "en": "PDF-SPLIT-Micro model company without capital (other documents)",
+          "fr": "PDF-SPLIT-Modèle micro société sans capital (autres documents)",
+          "nl": "PDF-SPLIT-Micro model kapitaalloze vennootschap (andere documenten)"
+        },
+        "entryPointDescriptions": {
+          "de": "Mikro-E",
+          "en": "MIC-con",
+          "fr": "M-app",
+          "nl": "MIC-inb"
+        },
+        "langs": "",
+        "modelCode": "m87-o-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m87/m87-o-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "PDF-Vollständiges Modell Vereinigung",
+          "en": "PDF-Full schema non-profit institution",
+          "fr": "PDF-Modèle complet association",
+          "nl": "PDF-Volledig model vereniging"
+        },
+        "entryPointDescriptions": {
+          "de": "Voll.-VoG",
+          "en": "F-NPI",
+          "fr": "C-ASBL",
+          "nl": "VOL-VZW"
+        },
+        "langs": "",
+        "modelCode": "m05-f-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m05/m05-f-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "PDF-Verkürztes Modell Vereinigung",
+          "en": "PDF-Abbreviated schema non-profit institution",
+          "fr": "PDF-Modèle abrégé association",
+          "nl": "PDF-Verkort model vereniging"
+        },
+        "entryPointDescriptions": {
+          "de": "Verk.-VoG",
+          "en": "ABR-NPI",
+          "fr": "A-ASBL",
+          "nl": "VKT-VZW"
+        },
+        "langs": "",
+        "modelCode": "m04-f-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m04/m04-f-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "PDF-Mikro Modell Vereinigung",
+          "en": "PDF-Micro schema non-profit institution",
+          "fr": "PDF-Modèle micro association",
+          "nl": "PDF-Micro model vereniging"
+        },
+        "entryPointDescriptions": {
+          "de": "Mikro-VoG",
+          "en": "MIC-NPI",
+          "fr": "M-ASBL",
+          "nl": "MIC-VZW"
+        },
+        "langs": "",
+        "modelCode": "m08-f-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m08/m08-f-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "Vollständiges Modell für Sozialbilanz",
+          "en": "Full model for social balance",
+          "fr": "Modèle complet pour bilan social",
+          "nl": "Volledig model voor sociale balans"
+        },
+        "entryPointDescriptions": {
+          "de": "Voll-S1",
+          "en": "F-S1",
+          "fr": "C-S1",
+          "nl": "VOL-S1"
+        },
+        "langs": "",
+        "modelCode": "m92-f-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m91/m92-f-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "Verkürztes Modell für Sozialbilanz",
+          "en": "Abbreviated model for social balance",
+          "fr": "Modèle abrégé pour bilan social",
+          "nl": "Verkort model voor sociale balans"
+        },
+        "entryPointDescriptions": {
+          "de": "Verk-S1",
+          "en": "ABR-S1",
+          "fr": "A-S1",
+          "nl": "VKT-S1"
+        },
+        "langs": "",
+        "modelCode": "m91-f-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m91/m91-f-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "Kreditinstitute, Investmentgeselschaft und Verwaltungsgeselschaft von Instituten für Kollektivanlagen",
+          "en": "Credit institution, investment firm and management company of undertakings for collective investment",
+          "fr": "Etablissement de crédit, société d'investissement, société de gestion des institutions de placement collectif",
+          "nl": "Kredietinstelling, beleggingsonderneming en beheervennootschap van instellingen voor collectieve belegging"
+        },
+        "entryPointDescriptions": {
+          "de": "Voll-ig",
+          "en": "F-ci",
+          "fr": "C-ét",
+          "nl": "VOL-inst"
+        },
+        "langs": "",
+        "modelCode": "m211-f-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m110/m211-f-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "Versicherungsgesellschaft",
+          "en": "Insurance company",
+          "fr": "Société d'assurance",
+          "nl": "Verzekeringsonderneming"
+        },
+        "entryPointDescriptions": {
+          "de": "Voll-ver",
+          "en": "F-ins",
+          "fr": "C-ass",
+          "nl": "VOL-ver"
+        },
+        "langs": "",
+        "modelCode": "m212-f-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m110/m212-f-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "Verwertungsgesellschaft von Urheberrechten",
+          "en": "Copyright management company",
+          "fr": "Société de droits d'auteur",
+          "nl": "Beheersmaatschappij van auteursrechten"
+        },
+        "entryPointDescriptions": {
+          "de": "Voll-AUT",
+          "en": "F-AUT",
+          "fr": "C-AUT",
+          "nl": "VOL-AUT"
+        },
+        "langs": "",
+        "modelCode": "m213-f-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m110/m213-f-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "Andere Modelle für Gesellschaft",
+          "en": "Other models for company",
+          "fr": "Autres modèles pour société",
+          "nl": "Andere modellen voor vennootschap"
+        },
+        "entryPointDescriptions": {
+          "de": "Voll-A",
+          "en": "F-O",
+          "fr": "C-A",
+          "nl": "VOL-A"
+        },
+        "langs": "",
+        "modelCode": "m114-f-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m114/m114-f-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "Kreditinstitute, Investmentgesellschaft und Verwaltungsgesellschaft von Instituten für Kollektivanlagen.: kleine gesellschaft",
+          "en": "Credit institution, investment firm and management company of undertakings for collective investment : little company",
+          "fr": "Etablissement de crédit, société d'investissement, société de gestion des institutions de placement collectif : petite société",
+          "nl": "Kredietinstelling, beleggingsonderneming en beheervennootschap van instellingen voor collectieve belegging : kleine vennootschap"
+        },
+        "entryPointDescriptions": {
+          "de": "Verk-ig",
+          "en": "ABR-ci",
+          "fr": "A-ét",
+          "nl": "VKT-inst"
+        },
+        "langs": "",
+        "modelCode": "m111-f-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m110/m111-f-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "Versicherungsgesellschaft : kleine Gesellschaft",
+          "en": "Insurance company : little company",
+          "fr": "Société d'assurance : petite société",
+          "nl": "Verzekeringsonderneming : kleine vennootschap"
+        },
+        "entryPointDescriptions": {
+          "de": "Verk-ver",
+          "en": "ABR-ins",
+          "fr": "A-ass",
+          "nl": "VKT-ver"
+        },
+        "langs": "",
+        "modelCode": "m112-f-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m110/m112-f-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "Verwertungsgesellschaft von Urheberrechten : kleine Gesellshaft",
+          "en": "Copyright management company : little company",
+          "fr": "Société de droits d'auteur : petite société",
+          "nl": "Beheersmaatschappij van auteursrechten : kleine vennootschap"
+        },
+        "entryPointDescriptions": {
+          "de": "Verk-AUT",
+          "en": "ABR-AUT",
+          "fr": "A-AUT",
+          "nl": "VKT-AUT"
+        },
+        "langs": "",
+        "modelCode": "m113-f-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m110/m113-f-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "Modelle für konsolidierte Jahresabschlüsse",
+          "en": "Model for consolidated annual accounts",
+          "fr": "Modèle pour comptes consolidés",
+          "nl": "Model voor geconsolideerde jaarrekening"
+        },
+        "entryPointDescriptions": {
+          "de": "CONSO 1",
+          "en": "CONSO 1",
+          "fr": "CONSO 1",
+          "nl": "CONSO 1"
+        },
+        "langs": "",
+        "modelCode": "m120-f-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m120/m120-f-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "Konsolidierte Jahresabschlüsse von der Tochtergesellschaft erstellte",
+          "en": "Model for consolidated annual accounts by subsidiary",
+          "fr": "Comptes consolidés établis par la filiale",
+          "nl": "Geconsolideerde jaarrekening opgesteld door het filiaal"
+        },
+        "entryPointDescriptions": {
+          "de": "CONSO 1",
+          "en": "CONSO 1",
+          "fr": "CONSO 1",
+          "nl": "CONSO 1"
+        },
+        "langs": "",
+        "modelCode": "m121-f-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m121/m121-f-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "Konsolidierte Jahresabschlüsse eines Konsortiums",
+          "en": "Consortium",
+          "fr": "Comptes consolidés d'un consortium",
+          "nl": "Geconsolideerde jaarrekening betreffende een consortium"
+        },
+        "entryPointDescriptions": {
+          "de": "CONSO 1",
+          "en": "CONSO 1",
+          "fr": "CONSO 1",
+          "nl": "CONSO 1"
+        },
+        "langs": "",
+        "modelCode": "m122-f-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m122/m122-f-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "Jahresabschlüsse von ausländischen Gesellschaft",
+          "en": "Annual accounts of foreign company",
+          "fr": "Comptes annuels de société étrangère",
+          "nl": "Jaarrekening van buitenlandse vennootschap"
+        },
+        "entryPointDescriptions": {
+          "de": "Voll-aG",
+          "en": "F-fc",
+          "fr": "C-se",
+          "nl": "VOL-bv"
+        },
+        "langs": "",
+        "modelCode": "m230-f-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m130/m230-f-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "Jahresabschlüsse von ausländischen Gesellschaft : kleine Gesellschaft",
+          "en": "Annual accounts of foreign company : little company",
+          "fr": "Comptes annuels de société étrangère : petite société",
+          "nl": "Jaarrekening van buitenlandse vennootschap : kleine vennootschap"
+        },
+        "entryPointDescriptions": {
+          "de": "Verk-aG",
+          "en": "ABR-fc",
+          "fr": "A-se",
+          "nl": "VKT-bv"
+        },
+        "langs": "",
+        "modelCode": "m130-f-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m130/m130-f-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "Zustand der Aktiva und Passiva für immigrierte Kapitalunternehmen",
+          "en": "Statement of assets and liabilities of immigrating enterprise with capital",
+          "fr": "Etat de l'actif et du passif d'entreprise immigrante avec capital",
+          "nl": "Staat van actief en passief voor immigrerende kapitaalonderneming"
+        },
+        "entryPointDescriptions": {
+          "de": "A/P-K",
+          "en": "A/L-cap",
+          "fr": "A/P-cap",
+          "nl": "A/P-Kap"
+        },
+        "langs": "",
+        "modelCode": "m135-f-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m135/m135-f-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "Zustand der Aktiva und Passiva für immigrierte Unternehmen ohne Kapital",
+          "en": "Statement of assets and liabilities of immigrating enterprise without capital",
+          "fr": "Etat de l'actif et du passif d'entreprise immigrante sans capital",
+          "nl": "Staat van actief en passief voor immigrerende kapitaalloze onderneming"
+        },
+        "entryPointDescriptions": {
+          "de": "A/P-E",
+          "en": "A/L-con",
+          "fr": "A/P-app",
+          "nl": "A/P-inb"
+        },
+        "langs": "",
+        "modelCode": "m136-f-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m135/m136-f-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "Andere Modellen für Vereinigung, Stiftung und für Pensionskasse",
+          "en": "Other specific models for Non Profit Institution, Foundation  and Organisations for the Financing of Pensions",
+          "fr": "Autres modèles pour association, fondation, organisme de financement de pension",
+          "nl": "Andere modellen voor vereniging, stichting en voor organisme voor de financiering van pensioenen"
+        },
+        "entryPointDescriptions": {
+          "de": "S-Vog",
+          "en": "S-npi",
+          "fr": "S-asbl",
+          "nl": "S-vzw"
+        },
+        "langs": "",
+        "modelCode": "m140-f-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m140/m140-f-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "Jahresabschlüsse für Krankenkassen - föderalen Pflichtversicherung",
+          "en": "Annual accounts for health insurance funds - federal compulsory insurance",
+          "fr": "Comptes annuels de mutuelles - assurance obligatoire fédérale",
+          "nl": "Jaarrekening van ziekenfondsen - federale verplichte verzekering"
+        },
+        "entryPointDescriptions": {
+          "de": "Krank-fP",
+          "en": "Health-FCI",
+          "fr": "AOF-mut",
+          "nl": "FVP-mut"
+        },
+        "langs": "",
+        "modelCode": "m141-f-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m141/m141-f-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "Jahresabschlüsse für Krankenkassen - Zusatzversicherungen",
+          "en": "Annual accounts for health insurance funds - supplementary insurance",
+          "fr": "Comptes annuels de mutuelles - assurance complémentaire",
+          "nl": "Jaarrekening van ziekenfondsen - aanvullende verzekering"
+        },
+        "entryPointDescriptions": {
+          "de": "Krank-Z",
+          "en": "Health-SI",
+          "fr": "AL-mut",
+          "nl": "VR-mut"
+        },
+        "langs": "",
+        "modelCode": "m142-f-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m142/m142-f-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "Jahresabschlüsse für Krankenkassen - regionalen Pflichtversicherung",
+          "en": "Annual accounts for health insurance funds - regional compulsory insurance",
+          "fr": "Comptes annuels de mutuelles - assurance obligatoire régionale",
+          "nl": "Jaarrekening van ziekenfondsen - regionale verplichte verzekering"
+        },
+        "entryPointDescriptions": {
+          "de": "Krank-rP",
+          "en": "Health-RC",
+          "fr": "AOR-mut",
+          "nl": "RVP-mut"
+        },
+        "langs": "",
+        "modelCode": "m143-f-p",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m143/m143-f-p.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "OCR Vollständige Schema - erste Seite + Beteiligungen + Sozialbilanz",
+          "en": "OCR full schema - first page + participations + social balance sheet",
+          "fr": "OCR schéma complet - première page + participations + bilan social",
+          "nl": "OCR volledig schema - eerste pagina + deelnemingen + sociale balans"
+        },
+        "entryPointDescriptions": {
+          "de": "Voll-OCR",
+          "en": "F-OCR",
+          "fr": "C-OCR",
+          "nl": "VOL-OCR"
+        },
+        "langs": "",
+        "modelCode": "m200-f",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m200/m200-f.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "OCR Verkürzte Schema - erste Seite + Beteiligungen + Sozialbilanz",
+          "en": "OCR abbreviated schema - first page + participations + social balance sheet",
+          "fr": "OCR schéma abrégé - première page + participations + bilan social",
+          "nl": "OCR verkort schema - eerste pagina + deelnemingen + sociale balans"
+        },
+        "entryPointDescriptions": {
+          "de": "Verk-OCR",
+          "en": "ABR-OCR",
+          "fr": "A-OCR",
+          "nl": "VKT-OCR"
+        },
+        "langs": "",
+        "modelCode": "m201-f",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m200/m201-f.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "Kontaktpersonen im Unternehmen",
+          "en": "Entity contact",
+          "fr": "Contacts dans l'entreprise",
+          "nl": "Contactpersonen binnen de onderneming"
+        },
+        "entryPointDescriptions": {
+          "de": "Kontakt",
+          "en": "Contact",
+          "fr": "Contact",
+          "nl": "Contact"
+        },
+        "langs": "",
+        "modelCode": "m100-r",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m100/m100-r.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      },
+      {
+        "entryPointNames": {
+          "de": "Softwarehersteller",
+          "en": "Software vendor",
+          "fr": "Producteur de logiciel",
+          "nl": "Softwareproducent"
+        },
+        "entryPointDescriptions": {
+          "de": "Soft",
+          "en": "Soft",
+          "fr": "Soft",
+          "nl": "Soft"
+        },
+        "langs": "",
+        "modelCode": "m101-r",
+        "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m100/m101-r.xsd",
+        "entryPointFullVersion": "22.19.3",
+        "majorVersion": "22.19"
+      }
+    ],
+    "activationStartDate": "2020-01-01T00:00:00",
+    "activationEndDate": "2020-01-01T00:00:00",
+    "taxonomyStatus": "ACTIVE",
+    "type": "Filing",
+    "majorVersion": "22.19",
+    "fullVersion": "22.19.3"
+  },
+  "internalModels": [
+    {
+      "editorModel": {
+        "metaInfo": {
+          "jsonModelVersion": "0.4",
+          "fullPackageVersion": "22.19.3",
+          "name": {
+            "de": "Modelle 2021 (22.19.3)",
+            "en": "Models 2021 (22.19.3)",
+            "fr": "Modèles 2021 (22.19.3)",
+            "nl": "Modellen 2021 (22.19.3)"
+          },
+          "entryPointNames": {
+            "de": "Softwarehersteller",
+            "en": "Software vendor",
+            "fr": "Producteur de logiciel",
+            "nl": "Softwareproducent"
+          },
+          "entryPointFullVersion": "22.19.3",
+          "schemaRef": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m100/m101-r.xsd",
+          "modelCode": "m101-r",
+          "entryPointDocuments": [
+            "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m100/m101-r.xsd"
+          ],
+          "entryPointLanguages": []
+        },
+        "sectionsOrTables": [
+          {
+            "section": {
+              "labels": {
+                "de": "Softwarehersteller",
+                "en": "Software vendor",
+                "fr": "Producteur de logiciel",
+                "nl": "Softwareproducent"
+              },
+              "sectionsOrTables": [
+                {
+                  "table": {
+                    "tableId": 1,
+                    "labels": {
+                      "de": "S.01.00.4_1",
+                      "en": "S.01.00.4_1",
+                      "fr": "S.01.00.4_1",
+                      "nl": "S.01.00.4_1"
+                    },
+                    "mergeRanges": [
+                      {"startRow": 0, "endRow": 2, "startColumn": 0, "endColumn": 1},
+                      {"startRow": 1, "endRow": 2, "startColumn": 2, "endColumn": 2}
+                    ],
+                    "openX": false,
+                    "openY": true,
+                    "openZ": false,
+                    "rows": [
+                      {
+                        "rowIdx": 0,
+                        "cols": [
+                          {"colIdx": 0},
+                          {"colIdx": 1},
+                          {
+                            "colIdx": 2,
+                            "labels": {"de": "", "en": "", "fr": "", "nl": ""}
+                          }
+                        ]
+                      },
+                      {
+                        "rowIdx": 1,
+                        "cols": [
+                          {"colIdx": 0},
+                          {
+                            "colIdx": 2,
+                            "labels": {
+                              "de": "Wert",
+                              "en": "Value",
+                              "fr": "Valeur",
+                              "nl": "Waarde"
+                            }
+                          }
+                        ]
+                      },
+                      {"rowIdx": 2, "cols": [{"colIdx": 0}, {"colIdx": 2}]},
+                      {
+                        "rowIdx": 3,
+                        "cols": [
+                          {
+                            "colIdx": 0,
+                            "labels": {
+                              "de": "Softwarehersteller",
+                              "en": "Software vendor",
+                              "fr": "Producteur de logiciel",
+                              "nl": "Softwareproducent"
+                            }
+                          },
+                          {
+                            "colIdx": 1,
+                            "openDimEntryQname": "dim:open",
+                            "openXDimEntry": false,
+                            "openYDimEntry": true,
+                            "openZDimEntry": false
+                          },
+                          {
+                            "colIdx": 2,
+                            "fp": {
+                              "qname": "met:str2",
+                              "numeric": false,
+                              "valueType": "string",
+                              "readOnly": false,
+                              "id": "met:str2#dim:bas=bas:m28#dim:open=#dim:part=part:m2#dim:psn=psn:m27",
+                              "refTable": 1,
+                              "openDimQNames": ["dim:open"]
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "noCodeListsMap": {},
+        "codeListsMap": {},
+        "keys": [],
+        "entryItems": [
+          {
+            "qname": "met:str2",
+            "labels": {
+              "de": "Not empty string",
+              "en": "Not empty string",
+              "fr": "Not empty string",
+              "nl": "Not empty string"
+            },
+            "type": "NonEmptyTokenString",
+            "nillable": false,
+            "name": "str2",
+            "facets": "{'minLength': 1}"
+          }
+        ],
+        "totalComputations": []
+      },
+      "factPrototypes": [
+        {
+          "qname": "met:str2",
+          "numeric": false,
+          "valueType": "string",
+          "dims": [
+            {"dimQname": "dim:bas", "memberQname": "bas:m28"},
+            {
+              "dimQname": "dim:open",
+              "labels": {
+                "de": "(de) Open table",
+                "en": "Open table",
+                "fr": "(fr) Open table",
+                "nl": "(nl) Open table"
+              },
+              "elemName": "id"
+            },
+            {"dimQname": "dim:part", "memberQname": "part:m2"},
+            {"dimQname": "dim:psn", "memberQname": "psn:m27"}
+          ],
+          "readOnly": false,
+          "id": "met:str2#dim:bas=bas:m28#dim:open=#dim:part=part:m2#dim:psn=psn:m27",
+          "refTable": 1,
+          "openDimQNames": ["dim:open"]
+        }
+      ],
+      "initialfactValues": [
+        {
+          "id": "met:str2#dim:bas=bas:m28#dim:open=#dim:part=part:m2#dim:psn=psn:m27",
+          "conceptQname": "met:str2"
+        }
+      ],
+      "namespacesByPrefix": {
+        "df": "http://xbrl.org/2008/filter/dimension",
+        "s.01.00.4": "http://www.nbb.be/be/fr/cbso/fws/22.19/sect/s.01.00.4",
+        "ssf": "http://xbrl.org/2008/filter/segment-scenario",
+        "dim": "http://www.nbb.be/be/fr/cbso/dict/dim",
+        "typ": "http://www.nbb.be/be/fr/cbso/dict/dom/typ",
+        "xbrli": "http://www.xbrl.org/2003/instance",
+        "spec": "http://www.nbb.be/be/fr/cbso/dict/dom/spec",
+        "rut": "http://www.nbb.be/be/fr/cbso/dict/dom/rut",
+        "reference": "http://xbrl.org/2008/reference",
+        "uf": "http://xbrl.org/2008/filter/unit",
+        "ctc": "http://www.nbb.be/be/fr/cbso/dict/dom/ctc",
+        "bas": "http://www.nbb.be/be/fr/cbso/dict/dom/bas",
+        "gtd": "http://www.nbb.be/be/fr/cbso/dict/dom/gtd",
+        "epc": "http://www.nbb.be/be/fr/cbso/dict/dom/epc",
+        "mf": "http://xbrl.org/2008/filter/match",
+        "bnf": "http://www.nbb.be/be/fr/cbso/dict/dom/bnf",
+        "ea": "http://xbrl.org/2008/assertion/existence",
+        "nonnum": "http://www.xbrl.org/dtr/type/non-numeric",
+        "validation": "http://xbrl.org/2008/validation",
+        "wkr": "http://www.nbb.be/be/fr/cbso/dict/dom/wkr",
+        "ext": "http://www.nbb.be/be/fr/cbso/dict/ext",
+        "ef": "http://xbrl.org/2008/filter/entity",
+        "aln": "http://www.nbb.be/be/fr/cbso/dict/dom/aln",
+        "prd": "http://www.nbb.be/be/fr/cbso/dict/dom/prd",
+        "hrs": "http://www.nbb.be/be/fr/cbso/dict/dom/hrs",
+        "va": "http://xbrl.org/2008/assertion/value",
+        "pfc": "http://www.nbb.be/be/fr/cbso/dict/dom/pfc",
+        "vf": "http://xbrl.org/2008/filter/value",
+        "sts": "http://www.nbb.be/be/fr/cbso/dict/dom/sts",
+        "gdr": "http://www.nbb.be/be/fr/cbso/dict/dom/gdr",
+        "rf": "http://xbrl.org/2008/filter/relative",
+        "qlt": "http://www.nbb.be/be/fr/cbso/dict/dom/qlt",
+        "mdp": "http://www.nbb.be/be/fr/cbso/dict/dom/mdp",
+        "spu": "http://www.nbb.be/be/fr/cbso/dict/dom/spu",
+        "bkd": "http://www.nbb.be/be/fr/cbso/dict/dom/bkd",
+        "xlink": "http://www.w3.org/1999/xlink",
+        "m101-r": "http://www.nbb.be/be/fr/cbso/fws/22.19/mod/m101-r",
+        "dom": "http://www.nbb.be/be/fr/cbso/dict/dom/",
+        "bf": "http://xbrl.org/2008/filter/boolean",
+        "part": "http://www.nbb.be/be/fr/cbso/dict/dom/part",
+        "link": "http://www.xbrl.org/2003/linkbase",
+        "dgl": "http://www.nbb.be/be/fr/cbso/dict/dom/dgl",
+        "psn": "http://www.nbb.be/be/fr/cbso/dict/dom/psn",
+        "dcl": "http://www.nbb.be/be/fr/cbso/dict/dom/dcl",
+        "rsn": "http://www.nbb.be/be/fr/cbso/dict/dom/rsn",
+        "gen": "http://xbrl.org/2008/generic",
+        "pfs-dt": "http://www.nbb.be/be/fr/cbso/dict/dt",
+        "rst": "http://www.nbb.be/be/fr/cbso/dict/dom/rst",
+        "mmt": "http://www.nbb.be/be/fr/cbso/dict/dom/mmt",
+        "met": "http://www.nbb.be/be/fr/cbso/dict/met",
+        "table": "http://xbrl.org/2014/table",
+        "ca": "http://xbrl.org/2008/assertion/consistency",
+        "gf": "http://xbrl.org/2008/filter/general",
+        "cvt": "http://www.nbb.be/be/fr/cbso/dict/dom/cvt",
+        "evt": "http://www.nbb.be/be/fr/cbso/dict/dom/evt",
+        "cf": "http://xbrl.org/2008/filter/concept",
+        "ntl": "http://www.nbb.be/be/fr/cbso/dict/dom/ntl",
+        "xbrldt": "http://xbrl.org/2005/xbrldt",
+        "label": "http://xbrl.org/2008/label",
+        "ntr": "http://www.nbb.be/be/fr/cbso/dict/dom/ntr",
+        "wrg": "http://www.nbb.be/be/fr/cbso/dict/dom/wrg",
+        "tf": "http://xbrl.org/2008/filter/tuple",
+        "xl": "http://www.xbrl.org/2003/XLink",
+        "sect": "http://www.nbb.be/be/fr/cbso/fws/22.19/sect/sect",
+        "pf": "http://xbrl.org/2008/filter/period",
+        "rls": "http://www.nbb.be/be/fr/cbso/dict/dom/rls",
+        "variable": "http://xbrl.org/2008/variable",
+        "formula": "http://xbrl.org/2008/formula",
+        "open": "http://www.nbb.be/be/fr/cbso/dict/dom/open"
+      },
+      "assertions": [],
+      "prevYearRubCodes": [],
+      "defaultDims": [
+        {"dim": "dim:aln", "value": "aln:m0"},
+        {"dim": "dim:bas", "value": "bas:m0"},
+        {"dim": "dim:bkd", "value": "bkd:m0"},
+        {"dim": "dim:bnf", "value": "bnf:m0"},
+        {"dim": "dim:ctc", "value": "ctc:m0"},
+        {"dim": "dim:cvt", "value": "cvt:m0"},
+        {"dim": "dim:dcl", "value": "dcl:m0"},
+        {"dim": "dim:dgl", "value": "dgl:m0"},
+        {"dim": "dim:epc", "value": "epc:m0"},
+        {"dim": "dim:evt", "value": "evt:m0"},
+        {"dim": "dim:gdr", "value": "gdr:m0"},
+        {"dim": "dim:gtd", "value": "gtd:m0"},
+        {"dim": "dim:hrs", "value": "hrs:m0"},
+        {"dim": "dim:mdp", "value": "mdp:m0"},
+        {"dim": "dim:mmt", "value": "mmt:m0"},
+        {"dim": "dim:ntl", "value": "ntl:m0"},
+        {"dim": "dim:ntr", "value": "ntr:m0"},
+        {"dim": "dim:part", "value": "part:m0"},
+        {"dim": "dim:pfc", "value": "pfc:m0"},
+        {"dim": "dim:prd", "value": "prd:m0"},
+        {"dim": "dim:psn", "value": "psn:m0"},
+        {"dim": "dim:qlt", "value": "qlt:m0"},
+        {"dim": "dim:rls", "value": "rls:m0"},
+        {"dim": "dim:rsn", "value": "rsn:m0"},
+        {"dim": "dim:rst", "value": "rst:m0"},
+        {"dim": "dim:rut", "value": "rut:m0"},
+        {"dim": "dim:spec", "value": "spec:m0"},
+        {"dim": "dim:spu", "value": "spu:m0"},
+        {"dim": "dim:sts", "value": "sts:m0"},
+        {"dim": "dim:typ", "value": "typ:m0"},
+        {"dim": "dim:wkr", "value": "wkr:m0"},
+        {"dim": "dim:wrg", "value": "wrg:m0"}
+      ]
+    }
+  ]
+}
