@@ -8,7 +8,6 @@
                 <field name="bpost_address" invisible="1" />
                 <field name="partner_id" invisible="1" />
                 <field name="is_valid" invisible="1" />
-                <field name="bad_address" invisible="1" />
                 <div
                     class="text-danger mb-3"
                     attrs="{'invisible': [('is_valid','=', True)]}"
@@ -24,9 +23,7 @@
                 >
                     <span>Success ! The address given is valid.</span>
                 </div>
-                <footer
-                    attrs="{'invisible': ['|',('is_valid', '=', True),('bad_address', '=', True)]}"
-                >
+                <footer attrs="{'invisible': [('suggest_changes', '=', '')]}">
                     <button
                         type="object"
                         name="apply_changes"

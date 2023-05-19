@@ -96,7 +96,6 @@ class TestBpostAddressValidationWizard(TransactionCase):
         cls.wizard = cls.env["bpost.address.validation.wizard"].create(
             {"partner_id": cls.partner.id}
         )
-        cls.wizard._compute_response_address()
 
     @classmethod
     def tearDownClass(cls):
@@ -107,41 +106,31 @@ class TestBpostAddressValidationWizard(TransactionCase):
 
     def test_apply_changes(self):
         self.wizard.apply_changes()
-
         self.assertEqual("QUAI BANNING 6", self.partner.street)
         self.assertEqual("LIÈGE", self.partner.city)
         self.assertEqual("4000", self.partner.zip)
 
     def test_suggest_changes(self):
         self.assertEqual("QUAI BANNING 6 4000, LIÈGE", self.wizard.suggest_changes)
-        self.assertFalse(self.wizard.bad_address)
         self.assertFalse(self.wizard.is_valid)
 
     def test_invalid_address(self):
         self.partner.street = "Quai Banning"
-        self.wizard._compute_response_address()
-        self.assertTrue(self.wizard.bad_address)
         self.assertFalse(self.wizard.is_valid)
 
     def test_valid_address(self):
         self.partner.street = "Quai Banning 6"
-        self.wizard._compute_response_address()
         self.assertTrue(self.wizard.is_valid)
-        self.assertFalse(self.wizard.bad_address)
 
     def test_partner_from_another_country(self):
         wizard = self.env["bpost.address.validation.wizard"].create(
             {"partner_id": self.partner_lu.id}
         )
-        wizard._compute_response_address()
         self.assertTrue(wizard.is_valid)
-        self.assertFalse(wizard.bad_address)
 
     def test_invalid_address_and_apply_changes(self):
         self.partner.street = "Quai Banning"
-        self.wizard._compute_response_address()
         self.wizard.apply_changes()
-        self.assertTrue(self.wizard.bad_address)
         self.assertFalse(self.wizard.is_valid)
         self.assertEqual(
             "The given address is not complete or the address cannot be found.",
@@ -153,6 +142,4 @@ class TestBpostAddressValidationWizard(TransactionCase):
 
     def test_address_not_found(self):
         self.partner.street = "benneng"
-        self.wizard._compute_response_address()
-        self.assertTrue(self.wizard.bad_address)
         self.assertFalse(self.wizard.is_valid)
