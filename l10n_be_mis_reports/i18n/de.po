@@ -1,0 +1,513 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * l10n_be_mis_reports
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n\"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-18 01:46+0000\n"
+"PO-Revision-Date: 2018-01-18 01:46+0000\n"
+"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2017\n"
+"Language-Team: French (https://www.transifex.com/oca/teams/23907/fr/)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_20
+msgid "FORMATION EXPENSES [20]"
+msgstr "ERRICHTUNGS- UND ERWEITERUNGSAUFWENDUNGEN [20]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_21_28
+msgid "FIXED ASSETS [21/28]"
+msgstr "ANLAGEVERMÖGEN [21/28]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_21
+msgid "Intangible fixed assets [21]"
+msgstr "Immaterielle Anlagewerte [21]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_22_27
+msgid "Tangible fixed assets [22/27]"
+msgstr "Sachanlagen [22/27]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_22
+msgid "Land and buildings [22]"
+msgstr "Grundstücke und Bauten [22]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_23
+msgid "Plant, machinery and equipment [23]"
+msgstr "Anlagen, Maschinen und Betriebsausstattung [23]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_24
+msgid "Furniture and vehicles [24]"
+msgstr "Geschäftsausstattung und Fuhrpark [24]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_25
+msgid "Leasing and other similar rights [25]"
+msgstr "Leasing und ähnliche Rechte [25]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_26
+msgid "Other tangible fixed assets [26]"
+msgstr "Sonstige Sachanlagen [26]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_27
+msgid "Assets under construction and advance payments [27]"
+msgstr "Anlagen im Bau und geleistete Anzahlungen [27]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_28
+msgid "Financial fixed assets [28]"
+msgstr "Finanzanlagen [28]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_29_58
+msgid "CURRENT ASSETS [29/58]"
+msgstr "UMLAUFVERMÖGEN [29/58]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_29
+msgid "Amounts receivable after more than one year [29]"
+msgstr "Forderungen mit einer Restlaufzeit von mehr als einem Jahr [29]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_290
+msgid "Trade debtors [290]"
+msgstr "Forderungen aus Lieferungen und Leistungen [290]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_291
+msgid "Other amounts receivable [291]"
+msgstr "Sonstige Forderungen [291]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_3
+msgid "Stocks and contracts in progress [3]"
+msgstr "Vorräte und in Ausführung befindliche Bestellungen [3]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_30_36
+msgid "Stocks [30/36]"
+msgstr "Vorräte [30/36]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_37
+msgid "Contracts in progress [37]"
+msgstr "In Ausführung befindliche Bestellungen [37]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_40_41
+msgid "Amounts receivable within one year [40/41]"
+msgstr "Forderungen mit einer Restlaufzeit bis zu einem Jahr [40/41]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_40
+msgid "Trade debtors [40]"
+msgstr "Forderungen aus Lieferungen und Leistungen [40]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_41
+msgid "Other amounts receivable [41]"
+msgstr "Sonstige Forderungen [41]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_50_53
+msgid "Current investments [50/53]"
+msgstr "Geldanlagen [50/53]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_54_58
+msgid "Cash at bank and in hand [54/58]"
+msgstr "Flüssige Mittel [54/58]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_490_1
+msgid "Accruals and deferred income [490/1]"
+msgstr "Rechnungsabgrenzungsposten [490/1]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_20_58
+msgid "TOTAL ASSETS [20/58]"
+msgstr "SUMME DER AKTIVA [20/58]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_10_15
+msgid "EQUITY [10/15]"
+msgstr "EIGENKAPITAL [10/15]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_10_11
+msgid "Contributions [10/11]"
+msgstr "Einlage [10/11]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_110
+msgid "Available [110]"
+msgstr "Verfügbar [110]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_111
+msgid "Not available [111]"
+msgstr "Nicht verfügbar [111]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_12
+msgid "Revaluation surpluses [12]"
+msgstr "Neubewertungsrücklagen [12]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_13
+msgid "Reserves [13]"
+msgstr "Rücklagen [13]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_130_1
+msgid "Reserves not available [130/1]"
+msgstr "Nicht verfügbare Rücklagen [130/1]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_1311
+msgid "Reserves statutorily not available [1311]"
+msgstr "Satzungsmäßige nicht verfügbare Rücklagen [1311]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_1312
+msgid "Aquisition of own shares [1312]"
+msgstr "Erwerb eigener Aktien [1312]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_1313
+msgid "Financial support [1313]"
+msgstr "Finanzielle Unterstützung [1313]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_1319
+msgid "Other [1319]"
+msgstr "Sonstige [1319]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_132
+msgid "Untaxed reserves [132]"
+msgstr "Steuerfreie Rücklagen [132]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_133
+msgid "Available reserves [133]"
+msgstr "Verfügbare Rücklagen [133]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_14
+msgid "Accumulated profits (losses) [14]"
+msgstr "Gewinnvortrag (Verlustvortrag) [14]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_15
+msgid "Capital subsidies [15]"
+msgstr "Kapitalsubventionen [15]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_19
+msgid "Advance to shareholders on the distribution of net assets [19]"
+msgstr "Vorschuss an die Gesellschafter auf der Verteilung des Nettoaktiva [19]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_16
+msgid "PROVISIONS AND DEFERRED TAXES [16]"
+msgstr "RÜCKSTELLUNGEN UND AUFGESCHOBENE STEUERN [16]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_160_5
+msgid "Provisions for liabilities and charges [160/5]"
+msgstr "Rückstellungen für Risiken und Aufwendungen [160/5]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_160
+msgid "Pensions and similar obligations [160]"
+msgstr "Pensionen und ähnliche Verpflichtungen [160]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_161
+msgid "Taxes [161]"
+msgstr "Steuern [161]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_162
+msgid "Major repairs and maintenance [162]"
+msgstr "Große Reparaturen und Instandhaltungsarbeiten [162]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_163
+msgid "Environmental obligations [163]"
+msgstr "Umweltschutzverpflichtungen [163]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_164_5
+msgid "Other liabilities and charges [164/5]"
+msgstr "Sonstige Risiken und Aufwendungen [164/5]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_168
+msgid "Deferred taxes [168]"
+msgstr "Aufgeschobene Steuern [168]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_17_49
+msgid "AMOUNTS PAYABLE  [17/49]"
+msgstr "VERBINDLICHKEITEN  [17/49]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_17
+msgid "Amounts payable after more than one year [17]"
+msgstr "Verbindlichkeiten mit einer Restlaufzeit von mehr als einem Jahr [17]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_170_4
+msgid "Financial debts [170/4]"
+msgstr "Finanzverbindlichkeiten [170/4]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_172_3
+msgid "Credit institutions, leasing and other similar obligations [172/3]"
+msgstr "Kreditinstitute, Verbindlichkeiten aufgrund von Leasing- und ähnlichen Verträgen [172/3]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_174_0
+msgid "Other loans [174/0]"
+msgstr "Sonstige Anleihen [174/0]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_175
+msgid "Trade debts [175]"
+msgstr "Verbindlichkeiten aus Lieferungen und Leistungen [175]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_176
+msgid "Advances received on contracts in progress [176]"
+msgstr "Anzahlungen auf Bestellungen [176]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_178_9
+msgid "Other amounts payable [178/9]"
+msgstr "Sonstige Verbindlichkeiten [178/9]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_42_48
+msgid "Amounts payable within one year [42/48]"
+msgstr "Verbindlichkeiten mit einer Restlaufzeit bis zu einem Jahr [42/48]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_42
+msgid "Current portion of amounts payable after more than one year falling due within one year [42]"
+msgstr "Innerhalb eines Jahres fällig werdende Verbindlichkeiten mit einer ursprünglichen Laufzeit von mehr als einem Jahr [42]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_43
+msgid "Financial debts [43]"
+msgstr "Finanzverbindlichkeiten [43]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_430_8
+msgid "Credit institutions [430/8]"
+msgstr "Kreditinstitute [430/8]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_439
+msgid "Other loans [439]"
+msgstr "Sonstige Anleihen [439]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_44
+msgid "Trade debts [44]"
+msgstr "Verbindlichkeiten aus Lieferungen und Leistungen [44]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_440_4
+msgid "Suppliers [440/4]"
+msgstr "Lieferanten [440/4]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_441
+msgid "Bills of exchange payable [441]"
+msgstr "Verbindlichkeiten aus Wechseln [441]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_46
+msgid "Advances received on contracts in progress [46]"
+msgstr "Anzahlungen auf Bestellungen [46]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_45
+msgid "Taxes, remuneration and social security [45]"
+msgstr "Verbindlichkeiten aufgrund von Steuern, Arbeitsentgelten und Soziallasten [45]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_450_3
+msgid "Taxes [450/3]"
+msgstr "Steuern [450/3]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_454_9
+msgid "Remuneration and social security [454/9]"
+msgstr "Arbeitsentgelte und Soziallasten [454/9]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_47_48
+msgid "Other amounts payable [47/48]"
+msgstr "Sonstige Verbindlichkeiten [47/48]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_492_3
+msgid "Accruals and deferred income [492/3]"
+msgstr "Rechnungsabgrenzungsposten [492/3]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_10_49
+msgid "TOTAL LIABILITIES [10/49]"
+msgstr "SUMME DER PASSIVA [10/49]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_9900
+msgid "Gross margin [9900]"
+msgstr "Brutto-Betriebsmarge [9900]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_76A
+msgid "Of which: non-recurring operating income [76A]"
+msgstr "Wovon: nicht wiederkehrende betriebliche Erträge [76A]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_70
+msgid "Turnover [70]"
+msgstr "Umsatzerlöse [70]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_60_61
+msgid "Goods for resale, raw materials, consumables, services and other goods [60/61]"
+msgstr "Waren, Roh-, Hilfs- und Betriebsstoffe, übrige Lieferungen und Leistungen [60/61]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_62
+msgid "Remuneration, social security costs and pensions [62]"
+msgstr "Arbeitsentgelte, Soziallasten und Pensionen [62]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_630
+msgid "Amortisations of and other amounts written down on formation expenses, intangible and tangible fixed assets [630]"
+msgstr "Abschreibungen und Wertminderungen auf Errichtungs- und Erweiterungsaufwendungen, auf immaterielle Anlagewerte und Sachanlagen [630]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_631_4
+msgid "Amounts written down on stocks, contracts in progress and trade debtors: additions (write-backs) [631/4]"
+msgstr "Wertminderungen von Vorräten, in Ausführung befindlichen Bestellungen und Forderungen aus Lieferungen und Leistungen: Zuführungen (Rücknahmen) [631/4]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_635_8
+msgid "Provisions for liabilities and charges: Appropriations (uses and write-backs) [635/8]"
+msgstr "Rückstellungen für Risiken und Aufwendungen: Zuführungen (Verbrauch und Auflösungen) [635/8]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_640_8
+msgid "Other operating charges [640/8]"
+msgstr "Sonstige betriebliche Aufwendungen [640/8]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_649
+msgid "Operating charges reported as assets under restructuring costs [649]"
+msgstr "Auf der Aktivseite als Restrukturierungskosten ausgewiesene betriebliche Aufwendungen [649]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_66A
+msgid "Non-recurring operating charges [66A]"
+msgstr "Nicht wiederkehrende betriebliche Aufwendungen [66A]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_9901
+msgid "Operating profit (loss) [9901]"
+msgstr "Betriebsgewinn (Betriebsverlust) [9901]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_75_76B
+msgid "Financial income [75/76B]"
+msgstr "Finanzerträge [75/76B]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_75
+msgid "Recurring financial income [75]"
+msgstr "Wiederkehrende Finanzerträge [75]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_753
+msgid "Of which: capital and interest subsidies [753]"
+msgstr "Wovon: Kapital- und Zinssubventionen [753]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_76B
+msgid "Non-recurring financial income [76B]"
+msgstr "Nicht wiederkehrende Finanzerträge [76B]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_65_66B
+msgid "Financial charges [65/66B]"
+msgstr "Finanzaufwendungen [65/66B]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_65
+msgid "Recurring financial charges [65]"
+msgstr "Wiederkehrende Finanzaufwendungen [65]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_66B
+msgid "Non-recurring financial charges [66B]"
+msgstr "Nicht wiederkehrende Finanzaufwendungen [66B]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_9903
+msgid "Profit (loss) for the period before taxes [9903]"
+msgstr "Gewinn (Verlust) des Geschäftsjahres vor Steuern [9903]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_780
+msgid "Transfer from deferred taxes [780]"
+msgstr "Auflösung von aufgeschobenen Steuern [780]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_680
+msgid "Transfer to deferred taxes [680]"
+msgstr "Zuführung zu aufgeschobenen Steuern [680]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_67_77
+msgid "Income taxes on the result [67/77]"
+msgstr "Steuern auf das Ergebnis [67/77]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_9904
+msgid "Profit (loss) of the period [9904]"
+msgstr "Gewinn (Verlust) des Geschäftsjahres [9904]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_789
+msgid "Transfer from untaxed reserves [789]"
+msgstr "Entnahmen aus den steuerfreien Rücklagen [789]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_689
+msgid "Transfer to untaxed reserves [689]"
+msgstr "Einstellung in die steuerfreien Rücklagen [689]"
+
+#. module: l10n_be_mis_reports
+#: model:mis.report.kpi,description:l10n_be_mis_reports.new_mis_report_bs_rub_9905
+msgid "Profit (loss) of the period available for appropriation [9905]"
+msgstr "Zu verwendender Gewinn (anzurechnender Verlust) des Geschäftsjahres [9905]"
+

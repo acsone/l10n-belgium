@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record model="ir.ui.view" id="mis_report_view_form">
+        <field name="name">mis.report.view.form (in mis_builder)</field>
+        <field name="model">mis.report</field>
+        <field name="inherit_id" ref="mis_builder.mis_report_view_form" />
+        <field name="arch" type="xml">
+            <field name="move_lines_source" position="after">
+                <field name="json_data_file" filename="json_data_filename" />
+                <field name="json_calc_file" filename="json_calc_filename" />
+                <field name="json_data_filename" invisible="1" />
+                <field name="json_calc_filename" invisible="1" />
+            </field>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,1 @@
+- Add a post hook to link MIS Builder templates with the corresponding JSON files.
