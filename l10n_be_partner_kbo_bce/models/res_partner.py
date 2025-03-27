@@ -18,7 +18,6 @@ class ResPartner(models.Model):
         ),
         search=lambda s, *a: s._search_identification("l10n_be_kbo_bce", *a),
     )
-    country_code = fields.Char(related="country_id.code")
 
     @api.model_create_multi
     def create(self, vals_list):
