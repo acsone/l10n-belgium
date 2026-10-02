@@ -5,12 +5,19 @@ import os
 
 from odoo.fields import Command
 
+from odoo.addons.connector_importer.tests.common import TestImporterBase
 from odoo.addons.connector_importer_api.tests.test_connector_importer_api_common import (  # noqa
     TestConnectorImporterApiBase,
 )
 
 
-class ImportSourceMedipimCommon(TestConnectorImporterApiBase):
+class ImportSourceMedipimCommon(TestImporterBase, TestConnectorImporterApiBase):
+    def _get_component_modules(self):
+        result = super()._get_component_modules()
+        result.append("l10n_be_connector_importer_source_medipim")
+
+        return result
+
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
