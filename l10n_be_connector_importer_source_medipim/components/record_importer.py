@@ -70,7 +70,12 @@ class MedipimRecordImporter(Component):
         for result in results:
             meta = result.get("meta")
             self.tracker._log(self._get_log_total_message(meta))
-            result_line = result.get("result")
+            # Depending on the request, the result could be contained in a "result"
+            # or a "results" key.
+            if "result" in result:
+                result_line = result.get("result")
+            elif "results" in result:
+                result_line = result.get("results")
             if isinstance(result_line, list):
                 result_data.extend(result_line)
             else:
