@@ -11,6 +11,9 @@ class ProductCategoryCbipBfci(models.Model):
     name = fields.Char(
         translate=True,
     )
+    cbip_id = fields.Char(
+        help="This is a technical field to represent id in CBIP/BFCI database."
+    )
     parent_id = fields.Many2one(
         comodel_name="product.cbip.bfci.category",
         ondelete="cascade",
