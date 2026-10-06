@@ -2,20 +2,20 @@
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
 {
-    "name": "L10n Be Product Cbpi Bfci Category",
+    "name": "Belgian Product BFCI Category",
     "summary": """This module allows to define a CBIP/BFCI category on products""",
     "version": "18.0.1.0.0",
     "license": "AGPL-3",
     "author": "ACSONE SA/NV,Odoo Community Association (OCA)",
-    "maintainers": ["rouseldenis"],
+    "maintainers": ["rousseldenis"],
     "website": "https://github.com/OCA/l10n-belgium",
-    "depends": ["product"],
+    "depends": ["product", "product_usability"],
     "data": [
-        "security/product_category_cbip_bfci.xml",
-        "views/product_category_cbip_bfci.xml",
+        "security/product_category_bfci.xml",
+        "views/product_category_bfci.xml",
         "views/product_template.xml",
     ],
     "demo": [
-        "demo/product_category_cbip_bfci.xml",
+        "demo/product_category_bfci.xml",
     ],
 }

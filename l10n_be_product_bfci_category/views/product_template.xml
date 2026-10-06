@@ -8,7 +8,7 @@
         <field name="inherit_id" ref="product.product_template_form_view" />
         <field name="arch" type="xml">
             <field name="categ_id" position="after">
-                <field name="cbip_bfci_category_id" />
+                <field name="bfci_category_id" />
             </field>
         </field>
     </record>

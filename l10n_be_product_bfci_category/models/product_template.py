@@ -7,6 +7,7 @@ from odoo import fields, models
 class ProductTemplate(models.Model):
     _inherit = "product.template"
 
-    cbip_bfci_category_id = fields.Many2one(
-        comodel_name="product.cbip.bfci.category",
+    bfci_category_id = fields.Many2one(
+        comodel_name="product.bfci.category",
+        index=True,
     )

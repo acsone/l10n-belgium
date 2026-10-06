@@ -2,9 +2,7 @@
 <!-- Copyright 2026 ACSONE SA/NV
      License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
 <odoo noupdate="1">
-    <!-- TODO
-    <record model="product.category.cbip.bfci" id="product_category_cbip_bfci_demo_1">
-       <field name="name">...</field>
+    <record model="product.bfci.category" id="product_category_bfci_demo_1">
+        <field name="name">Drugs</field>
     </record>
-    -->
 </odoo>
