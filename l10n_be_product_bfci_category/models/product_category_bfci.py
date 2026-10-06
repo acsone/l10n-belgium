@@ -18,7 +18,8 @@ class ProductBfciCategory(models.Model):
         compute="_compute_complete_name", recursive=True, store=True
     )
     bfci_id = fields.Char(
-        help="This is a technical field to represent id in CBIP/BFCI database."
+        help="This is a technical field to represent id in CBIP/BFCI database.",
+        index=True,
     )
     parent_id = fields.Many2one(
         comodel_name="product.bfci.category",
