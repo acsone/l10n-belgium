@@ -20,7 +20,7 @@
         <field name="model">product.bfci.category</field>
         <field name="arch" type="xml">
             <list>
-                <field name="name" />
+                <field name="display_name" />
                 <field name="parent_id" />
             </list>
         </field>
