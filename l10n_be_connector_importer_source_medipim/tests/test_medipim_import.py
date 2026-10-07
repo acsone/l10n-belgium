@@ -11,7 +11,27 @@ from .common import ImportSourceMedipimCommon
 
 
 class TestSourceApiPost(ImportSourceMedipimCommon):
+    def test_import_categories(self):
+        self.categories_before = self._get_categories()
+        with patch.object(requests, "post") as mock_post:
+            response = Response()
+            response.status_code = 200
+            response.json = self._get_medipim_category_response
+            mock_post.return_value = response
+            self.recordset_category.run_import()
+
+        self.categories = self._get_categories() - self.categories_before
+
+        self.assertEqual(2, len(self.categories))
+
+        self.assertRecordValues(
+            self.categories,
+            self._get_recordset_categories_values(),
+        )
+
     def test_import(self):
+        self._create_category()
+        self.categories_before = self._get_categories()
         self.product_before = self._get_products()
         with patch.object(requests, "post") as mock_post:
             response = Response()
@@ -23,8 +43,12 @@ class TestSourceApiPost(ImportSourceMedipimCommon):
                 self.recordset.run_import()
 
         self.products = self._get_products() - self.product_before
+        self.categories = self._get_categories() - self.categories_before
 
         self.assertEqual(2, len(self.products))
+        self.assertEqual(0, len(self.categories))
+
+        self.assertEqual(self.category, self.products[0].medipim_category_ids)
 
         self.assertRecordValues(
             self.products,

@@ -4,6 +4,8 @@ import base64
 
 import requests
 
+from odoo.fields import Command
+
 from odoo.addons.component.core import Component
 from odoo.addons.connector.components.mapper import mapping
 
@@ -35,6 +37,42 @@ class ProductProductMapper(Component):
         ean = record.get("ean", [])
         if ean:
             result["barcode"] = ean[0]
+        return result
+
+    @mapping
+    def medipimCategories(self, record):
+        """
+        [
+            {
+                "id": "string",
+                "name": {
+                    "nl": "string" | null,
+                    "fr": "string" | null,
+                    "en": "string" | null,
+                    "de": "string" | null
+                },
+                "description": {
+                    "nl": "string" | null,
+                    "fr": "string" | null,
+                    "en": "string" | null,
+                    "de": "string" | null
+                },
+                "parent": "string",
+                "order": 1,
+                "type": "string"
+            }
+        ],
+        """
+        result = {}
+        record_categories = record.get("medipimCategories", [])
+
+        categ_ids = [record_category.get("id") for record_category in record_categories]
+        if categ_ids:
+            categories = self.env["product.medipim.category"].search(
+                [("medipim_id", "in", categ_ids)], limit=1
+            )
+            if categories:
+                result["medipim_category_ids"] = [Command.set(categories.ids)]
         return result
 
     @mapping

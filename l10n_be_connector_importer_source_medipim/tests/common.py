@@ -27,6 +27,9 @@ class ImportSourceMedipimCommon(TestImporterBase, TestConnectorImporterApiBase):
         cls.recordset = cls.env.ref(
             "l10n_be_connector_importer_source_medipim.import_recordset_medipim_product_product"
         )
+        cls.recordset_category = cls.env.ref(
+            "l10n_be_connector_importer_source_medipim.import_recordset_product_medipim_category"
+        )
         cls.backend.debug_mode = True
         cls.source_import_api.type_request = "post"
         cls.source_import_api.stream = True
@@ -101,12 +104,71 @@ class ImportSourceMedipimCommon(TestImporterBase, TestConnectorImporterApiBase):
             }
         )
 
+    def _get_medipim_category_response(self, modified=False):
+        return {
+            "meta": {
+                "total": 2,
+            },
+            "result": self._get_category_recordset(modified=modified),
+        }
+
     def _get_recordset(self, modified=False) -> list:
         # The list of Medipim values
         return [
             self._get_recordset_product_1(modified=modified),
             self._get_recordset_product_2(modified=modified),
         ]
+
+    def _get_category_recordset(self, modified=False) -> list:
+        # The list of Medipim values
+        return [
+            self._get_recordset_category_1(modified=modified),
+            self._get_recordset_category_2(modified=modified),
+        ]
+
+    def _get_recordset_category_1(self, modified=False) -> dict:
+        """
+        The Medipim category 1 recordset
+        """
+        if modified:
+            description = {
+                "fr": "Description modifiée",
+                "en": "Modified Description",
+                "nl": "Geswijzigd beschrijving",
+            }
+        else:
+            description = {
+                "fr": "Description",
+                "en": "Description",
+                "nl": "Beschrijving",
+            }
+        return {
+            "id": "M0000000001",
+            "name": {"fr": "Category 1", "en": "Category 1", "nl": "Category 1"},
+            "description": description,
+        }
+
+    def _get_recordset_category_2(self, modified=False) -> dict:
+        """
+        The Medipim category 2 recordset
+        """
+        if modified:
+            description = {
+                "fr": "Description modifiée",
+                "en": "Modified Description",
+                "nl": "Geswijzigd beschrijving",
+            }
+        else:
+            description = {
+                "fr": "Description 2",
+                "en": "Description 2",
+                "nl": "Beschrijving 2",
+            }
+        return {
+            "id": "M0000000002",
+            "name": {"fr": "Category 2", "en": "Category 2", "nl": "Category 2"},
+            "description": description,
+        }
 
     def _get_recordset_product_1(self, modified=False) -> dict:
         """
@@ -124,6 +186,19 @@ class ImportSourceMedipimCommon(TestImporterBase, TestConnectorImporterApiBase):
             "ean": ["1234567891012"],
             "weightWithUnit": weight,
             "frontals": self._get_photos(),
+            "medipimCategories": [
+                {
+                    "id": "M0000000001",
+                    "name": {
+                        "nl": "Category 1",
+                        "fr": "Category 1",
+                        "en": "null",
+                        "de": "null",
+                    },
+                    "parent": "null",
+                    "order": 1,
+                }
+            ],
         }
 
     def _get_recordset_product_2(self, modified=False) -> dict:
@@ -167,8 +242,39 @@ class ImportSourceMedipimCommon(TestImporterBase, TestConnectorImporterApiBase):
             "cnk_code": "12348799",
         }
 
+    def _get_category_1_values(self) -> dict:
+        # The category Odoo record values
+        return {
+            "medipim_id": "M0000000001",
+            "name": "Category 1",
+            "description": "Description",
+        }
+
+    def _get_category_2_values(self) -> dict:
+        # The category Odoo record values
+        return {
+            "medipim_id": "M0000000002",
+            "name": "Category 2",
+            "description": "Description 2",
+        }
+
     def _get_recordset_values(self):
         return [self._get_product_1_values(), self._get_product_2_values()]
 
+    def _get_recordset_categories_values(self):
+        return [self._get_category_1_values(), self._get_category_2_values()]
+
     def _get_products(self):
         return self.env["product.product"].with_context(active_test=False).search([])
+
+    def _get_categories(self):
+        return (
+            self.env["product.medipim.category"]
+            .with_context(active_test=False)
+            .search([])
+        )
+
+    def _create_category(self):
+        self.category = self.env["product.medipim.category"].create(
+            {"medipim_id": "M0000000001", "name": "Category 1"}
+        )
