@@ -1,4 +1,5 @@
 vcrpy-unittest
+odoo-test-helper
 
 odoo-addon-web-json-widget @ git+https://github.com/OCA/web@refs/pull/3231/head#subdirectory=web_json_widget
 odoo-addon-l10n-be-product-cnk @ git+https://github.com/OCA/l10n-belgium@refs/pull/285/head#subdirectory=l10n_be_product_cnk
