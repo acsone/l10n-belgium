@@ -139,3 +139,11 @@ class ProductProductMapper(Component):
         elif state == "inactive":
             result_state = "end"
         return {"state": result_state}
+
+    @mapping
+    def product_tags(self, record):
+        tags = self.env["product.tag"].search([("is_medipim", "=", True)])
+        result = {}
+        if tags:
+            result["product_tag_ids"] = [Command.set(tags.ids)]
+        return result

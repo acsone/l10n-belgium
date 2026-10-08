@@ -220,6 +220,7 @@ class ImportSourceMedipimCommon(TestImporterBase, TestConnectorImporterApiBase):
 
     def _get_product_1_values(self) -> dict:
         # The product Odoo record values
+        tags = self.env["product.tag"].search([("is_medipim", "=", True)])
         return {
             "barcode": "1234567891012",
             "weight": 0.1,
@@ -228,6 +229,7 @@ class ImportSourceMedipimCommon(TestImporterBase, TestConnectorImporterApiBase):
             "active": True,
             "state": "sellable",
             "cnk_code": "12348798",
+            "product_tag_ids": tags.ids,
         }
 
     def _get_product_2_values(self) -> dict:
@@ -240,6 +242,7 @@ class ImportSourceMedipimCommon(TestImporterBase, TestConnectorImporterApiBase):
             "active": True,
             "state": "obsolete",
             "cnk_code": "12348799",
+            "product_tag_ids": [],
         }
 
     def _get_category_1_values(self) -> dict:
