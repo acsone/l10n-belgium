@@ -18,11 +18,13 @@
     ],
     "data": [
         "security/security.xml",
+        "data/product_tag.xml",
         "data/source_medipim.xml",
         "data/import_type_product_product.xml",
         "data/import_type_product_medipim_category.xml",
         "data/import_backend.xml",
         "data/import_recordset.xml",
+        "views/product_tag.xml",
         "views/product_product.xml",
         "views/product_template.xml",
         "views/product_medipim_category.xml",
