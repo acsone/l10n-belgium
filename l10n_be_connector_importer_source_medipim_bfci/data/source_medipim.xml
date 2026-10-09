@@ -12,8 +12,6 @@
             name="data_code"
             eval="
 {
-  'filter': {
-  },
   'sorting': {
     'name': {
       'direction': 'ASC',
